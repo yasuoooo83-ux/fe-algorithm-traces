@@ -1,0 +1,17 @@
+# Scanned source material and temporary renderings stay out of the public site.
+*.pdf
+source_pdfs/
+tmp/
+__pycache__/
+*.pyc
+
+# Local authoring references are not needed in the published repository.
+project_instructions.md
+trace_sample.html
+
+# Never push plaintext teaching material or the shared password.
+traces_20261010/
+build_traces.py
+update_index.py
+site_password.txt
+verify_locked_site.cjs
